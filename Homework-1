@@ -1,0 +1,6 @@
+first = input("You have to enter something:")
+second = input("You have to enter something:")
+third = input("You have to enter something:")
+fourth = input("You have to enter something:")
+fifth = input("You have to enter something:")
+print(f"firstType:{type(first)}\nsecondType:{type(second)}\nthirdType:{type(third)}\nfourthType:{type(fourth)}\nfifthType:{type(fifth)}")
