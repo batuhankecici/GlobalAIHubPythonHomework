@@ -1,0 +1,16 @@
+import random
+print("0 ile 99 arasında bir sayı tahmin et :)")
+name = input("isim giriniz:")
+print("Hoşgeldin {}".format(name))
+sayı=random.randint(1,100)
+tahmin=int(input("0 ile 99 arasında bir sayı giriniz:"))
+while True:
+        if tahmin<sayı:
+            print("Tahmin ettiğiniz sayı küçük daha büyük bir sayı giriniz:")
+            tahmin=int(input("0 ile 99 arasında bir sayı giriniz:"))
+        elif tahmin>sayı:
+            print("Tahmin ettiğiniz sayı büyük, daha küçük bir sayı giriniz:")
+            tahmin=int(input("0 ile 99 arasında bir saygı giriniz:"))
+        else:
+            print("Tebrikler")
+            break
